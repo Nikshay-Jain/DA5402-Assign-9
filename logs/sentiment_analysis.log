@@ -1,0 +1,15 @@
+2025-04-17 17:25:58,101 - main - INFO - Starting the complete sentiment analysis pipeline
+2025-04-17 17:25:58,101 - main - INFO - Running Task 1: Sentiment Analysis
+2025-04-17 17:25:58,101 - sentiment_analysis - INFO - Starting sentiment analysis job
+2025-04-17 17:26:06,133 - sentiment_analysis - INFO - SparkSession initialized
+2025-04-17 17:26:18,608 - sentiment_analysis - INFO - Successfully loaded dataset from Divvy_Trips_2020_Q1.parquet
+2025-04-17 17:26:27,083 - sentiment_analysis - INFO - Dataset size: 624591 rows
+2025-04-17 17:26:27,453 - sentiment_analysis - ERROR - Error in main function: Column 'reviewText' does not exist. Did you mean one of the following? [_corrupt_record];
+'Project [_corrupt_record#8, analyze_sentiment('reviewText)#16 AS predicted_sentiment#17]
++- Relation [_corrupt_record#8] json
+
+2025-04-17 17:26:27,460 - main - ERROR - Error in main pipeline: Column 'reviewText' does not exist. Did you mean one of the following? [_corrupt_record];
+'Project [_corrupt_record#8, analyze_sentiment('reviewText)#16 AS predicted_sentiment#17]
++- Relation [_corrupt_record#8] json
+
+2025-04-17 17:26:27,503 - py4j.clientserver - INFO - Closing down clientserver connection

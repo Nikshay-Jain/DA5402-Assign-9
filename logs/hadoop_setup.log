@@ -1,0 +1,7 @@
+2025-04-17 17:43:12,407 - hadoop_setup - INFO - Setting up Hadoop environment
+2025-04-17 17:43:12,407 - hadoop_setup - INFO - Created hadoop directory at C:\Users\niksh\Desktop\DA5402-Assign-9\hadoop
+2025-04-17 17:43:12,407 - hadoop_setup - INFO - Set HADOOP_HOME environment variable to C:\Users\niksh\Desktop\DA5402-Assign-9\hadoop
+2025-04-17 17:43:12,427 - hadoop_setup - INFO - Created bin directory at C:\Users\niksh\Desktop\DA5402-Assign-9\hadoop\bin
+2025-04-17 17:43:12,427 - hadoop_setup - INFO - Creating empty winutils.exe file as a placeholder
+2025-04-17 17:43:12,427 - hadoop_setup - INFO - Created empty winutils.exe file at C:\Users\niksh\Desktop\DA5402-Assign-9\hadoop\bin\winutils.exe
+2025-04-17 17:43:12,427 - hadoop_setup - INFO - Hadoop environment set up successfully for Windows
