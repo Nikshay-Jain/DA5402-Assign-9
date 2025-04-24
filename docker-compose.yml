@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  spark-sentiment-analysis:
+    image: jupyter/pyspark-notebook:latest
+    container_name: spark-sentiment-analysis
+    volumes:
+      - ./:/home/jovyan/work
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: start.sh jupyter lab --NotebookApp.token='' --NotebookApp.password=''
